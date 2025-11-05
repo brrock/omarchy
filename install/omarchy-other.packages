@@ -19,7 +19,6 @@ jdk-openjdk
 libpulse
 libsass
 libva-intel-driver
-libva-nvidia-driver
 limine
 limine-mkinitcpio-hook
 limine-snapper-sync
@@ -27,10 +26,6 @@ linux
 linux-firmware
 linux-headers
 macbook12-spi-driver-dkms
-nvidia-dkms
-nvidia-open-dkms
-nvidia-utils
-lib32-nvidia-utils
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -43,11 +38,3 @@ webp-pixbuf-loader
 wget
 yay-debug
 zram-generator
-
-# T2 MacBook support packages
-apple-bcm-firmware
-apple-t2-audio-config
-linux-t2
-linux-t2-headers
-t2fanrd
-tiny-dfr
