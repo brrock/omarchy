@@ -27,7 +27,6 @@ if gum confirm "Are you sure you want to reinstall and lose all config changes?"
   $(bash $OMARCHY_PATH/install/config/theme.sh)
   $(bash $OMARCHY_PATH/install/config/git.sh)
 
-  omarchy-refresh-limine
   omarchy-refresh-plymouth
   omarchy-nvim-setup
 fi
